@@ -1,6 +1,10 @@
 # Predicting BMI from Health Indicators
 
-This project predicts Body Mass Index (BMI) based on various health indicators using various machine learning models.
+This project predicts Body Mass Index (BMI) and weight based on various health indicators using various machine learning models.
+
+## Files 
+
+
 
 ## Dataset
 
@@ -11,7 +15,25 @@ The dataset consists of two files:
 
 ## Results 
 
+### BMI prediction without agumentation
+![Alt Text](images/BMI_no_augmentation.png)
+
+### BMI prediction with augmentation
 ![Alt Text](images/BMI_augmented.png)
+
+------------------------------------------
+
+### Weight prediction without augmentation
+
+![Alt Text](images/weight_no_augmentation.png)
+
+
+### Weight prediction with augmentation
+
+![Alt Text](images/weight_augmented.png)
+
+
+
 
 ## Installation
 
