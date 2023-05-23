@@ -9,6 +9,10 @@ The dataset consists of two files:
 1. X1.csv: This file contains all the feature variables. The variables include Age, Height, and several other categorical health indicators.
 2. Y1.csv: This file contains the target variable - Weight.
 
+## Results 
+
+![Alt Text](images/BMI_augmented.png)
+
 ## Installation
 
 The following libraries are required to run this code:
