@@ -1,10 +1,8 @@
 # Predicting BMI from Health Indicators
 
-This project predicts Body Mass Index (BMI) and weight based on various health indicators using various machine learning models.
+The main objective of this project is to identify the most effective machine learning model for weight and BMI prediction. By leveraging a training dataset consisting of independent features, we aim to develop a model that can accurately predict weights for given individuals.
 
-## Files 
-
-
+This project is part of the Machine Learning Project course at **UCL Louvain University**, conducted during the academic year 2021/2022.
 
 ## Dataset
 
@@ -12,6 +10,15 @@ The dataset consists of two files:
 
 1. X1.csv: This file contains all the feature variables. The variables include Age, Height, and several other categorical health indicators.
 2. Y1.csv: This file contains the target variable - Weight.
+
+## Project Files
+
+The following are the main files included in this project:
+
+- `BMI_prediction-ToDeliver.ipynb`: Contains all the code for data preprocessing, model training, hyperparameter tuning, model evaluation, and visualization for the BMI prediction task.
+- `Weight_prediction-ToDeliver.ipynb` : Contains all the code for data preprocessing, model training, hyperparameter tuning, model evaluation, and visualization for the weight prediction task.
+- `X1.csv`: Dataset file containing all the feature variables.
+- `Y1.csv`: Dataset file containing the target variable.
 
 ## Results 
 
@@ -31,8 +38,6 @@ The dataset consists of two files:
 ### Weight prediction with augmentation
 
 ![Alt Text](images/weight_augmented.png)
-
-
 
 
 ## Installation
@@ -57,16 +62,12 @@ The following libraries are required to run this code:
 7. Each model's performance is evaluated based on Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (r2) metrics.
 8. The performances of the models are also visualized using bar plots.
 
-## Project Files
 
-The following are the main files included in this project:
+## Contributors
 
-- `data_preprocessing.ipynb`: Contains all the code for data preprocessing, model training, hyperparameter tuning, model evaluation, and visualization.
-- `X1.csv`: Dataset file containing all the feature variables.
-- `Y1.csv`: Dataset file containing the target variable.
+[Irene Rigato](https://github.com/bioshot-dotcom)
 
 
-## Results 
 
 
 
