@@ -1,9 +1,8 @@
-# Predicting BMI from Health Indicators
-
-The main objective of this project is to identify the most effective machine learning model for weight and BMI prediction. By leveraging a training dataset consisting of independent features, we aim to develop a model that can accurately predict weights for given individuals.
+# Predicting BMI/weight from Health Indicators
 
 This project is part of the Machine Learning Project course at **UCL Louvain University**, conducted during the academic year 2021/2022.
 
+The main objective is to identify the most effective machine learning model for weight and BMI prediction. By leveraging a training dataset consisting of independent features, we aim to develop a model that can accurately predict weights for given individuals.
 ## Dataset
 
 The dataset consists of two files:
@@ -15,10 +14,22 @@ The dataset consists of two files:
 
 The following are the main files included in this project:
 
-- `BMI_prediction-ToDeliver.ipynb`: Contains all the code for data preprocessing, model training, hyperparameter tuning, model evaluation, and visualization for the BMI prediction task.
-- `Weight_prediction-ToDeliver.ipynb` : Contains all the code for data preprocessing, model training, hyperparameter tuning, model evaluation, and visualization for the weight prediction task.
-- `X1.csv`: Dataset file containing all the feature variables.
-- `Y1.csv`: Dataset file containing the target variable.
+- [`BMI_prediction-ToDeliver.ipynb`](https://github.com/bioshot-dotcom/BMI_weight_prediction/blob/main/BMI_prediction-ToDeliver.ipynb): Contains all the code for data preprocessing, model training, hyperparameter tuning, model evaluation, and visualization for the BMI prediction task.
+- [`Weight_prediction-ToDeliver.ipynb`](https://github.com/bioshot-dotcom/BMI_weight_prediction/blob/main/Weight_prediction-ToDeliver.ipynb) : Contains all the code for data preprocessing, model training, hyperparameter tuning, model evaluation, and visualization for the weight prediction task.
+- [`X1.csv`](https://github.com/bioshot-dotcom/BMI_weight_prediction/blob/main/X1.csv): Dataset file containing all the feature variables.
+- [`Y1.csv`](https://github.com/bioshot-dotcom/BMI_weight_prediction/blob/main/Y1.csv): Dataset file containing the target variable.
+
+## Methods
+
+In this project, we explored several machine learning models to predict weights. The models tested include:
+
+* Multi-Layer Perceptron (MLP)
+* Linear Regression (LR)
+* k-Nearest Neighbors (KNN)
+* Support Vector Machines (SVM)
+* Multivariate Decision Forests (MDF)
+
+These models were chosen to compare their performance and determine the most suitable approach for weight/BMI prediction based on the given dataset.
 
 ## Results 
 
